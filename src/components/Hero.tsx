@@ -8,7 +8,7 @@ export default function Hero() {
             Your skin<br />has questions.
           </h1>
           <p className="hero-subtitle">
-            <em style={{ color: '#cc2b22', fontStyle: 'italic', fontWeight: 700 }}>
+            <em style={{ color: '#d9601a', fontStyle: 'italic', fontWeight: 700 }}>
               We have answers.
             </em>
             <br /><br />

@@ -13,7 +13,7 @@ export default function Footer() {
             <a href="#about-acne">About Acne</a>
             <a href="#team">Our Team</a>
             <a href="#resources">Resources</a>
-            <a href="mailto:acne-support@facultyofskin.com">Contact Us</a>
+            <a href="#">Contact Us</a>
           </nav>
         </div>
         <div className="footer-bottom">

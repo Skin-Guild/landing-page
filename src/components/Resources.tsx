@@ -14,7 +14,6 @@ const resources: Resource[] = [
         description:
           'Have a question about acne or your skin? Reach out to our team directly and we will get back to you.',
         action: 'Send a message',
-        href: 'mailto:acne-support@facultyofskin.com',
       },
     ],
   },
@@ -23,43 +22,18 @@ const resources: Resource[] = [
     icon: '📚',
     items: [
       {
-        label: 'American Academy of Dermatology',
+        label: 'Acne and Rosacea Society of Canada',
         description:
-          'Trusted, evidence-based information on acne causes, types, and treatments from dermatology professionals.',
+          'Canadian-focused resources on acne and rosacea, including treatment options, patient support, and education from Canadian dermatologists.',
         action: 'Visit resource',
-        href: 'https://www.aad.org/public/diseases/acne',
+        href: 'https://www.acneaction.ca/',
       },
       {
-        label: 'NHS Acne Guide',
+        label: 'Canadian Skin Patient Alliance',
         description:
-          'A comprehensive overview of acne, including self-care tips and when to seek medical advice.',
+          'A national non-profit supporting Canadians living with skin conditions through advocacy, education, and community resources.',
         action: 'Visit resource',
-        href: 'https://www.nhs.uk/conditions/acne/',
-      },
-      {
-        label: 'Skin Health Alliance',
-        description:
-          'Independent resources on skin conditions including acne, backed by dermatologists and healthcare professionals.',
-        action: 'Visit resource',
-        href: 'https://skinhealthalliance.org',
-      },
-    ],
-  },
-  {
-    category: 'Mental Wellbeing',
-    icon: '🤝',
-    items: [
-      {
-        label: 'It is OK to struggle',
-        description:
-          'Acne can affect your confidence and mental health. If you are finding things tough, talking to a school counsellor or a trusted adult can help.',
-      },
-      {
-        label: 'Student Wellbeing Services',
-        description:
-          'Your institution likely has wellbeing support available. We can help you find the right contact.',
-        action: 'Get directed',
-        href: 'mailto:acne-support@facultyofskin.com',
+        href: 'https://www.canadianskin.ca/en/',
       },
     ],
   },

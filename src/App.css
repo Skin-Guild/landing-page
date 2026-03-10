@@ -116,7 +116,7 @@
 .hero-circle-1 {
   width: 520px;
   height: 520px;
-  background: #3d1a17;
+  background: #3d2410;
   top: -120px;
   right: -120px;
 }
@@ -124,7 +124,7 @@
 .hero-circle-2 {
   width: 200px;
   height: 200px;
-  background: #2a1210;
+  background: #2a1a08;
   bottom: -60px;
   right: 200px;
 }
@@ -219,7 +219,7 @@
   width: 480px;
   height: 480px;
   border-radius: 50%;
-  background: #3d1a17;
+  background: #3d2410;
   right: -120px;
   top: 50%;
   transform: translateY(-50%);
@@ -310,7 +310,7 @@
 
 .resources-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 1px;
   background-color: var(--color-border);
   border: 1px solid var(--color-border);
