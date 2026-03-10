@@ -11,7 +11,7 @@ const team: TeamMember[] = [
   {
     name: 'Chris Small',
     role: 'Community Lead',
-    bio: 'Chris leads the Acne Community Engagement initiative, dedicated to creating a welcoming space where students can access reliable acne information and connect with the right support.',
+    bio: 'Bio coming soon.',
     initials: 'CS',
     color: '#4f46e5',
     contact: '',
@@ -19,7 +19,7 @@ const team: TeamMember[] = [
   {
     name: 'Vinesh',
     role: 'Student Support Advisor',
-    bio: 'Vinesh works directly with students to help them navigate their acne journey — from understanding their skin type to connecting them with appropriate medical and emotional resources.',
+    bio: 'Bio coming soon.',
     initials: 'V',
     color: '#0891b2',
     contact: '',
