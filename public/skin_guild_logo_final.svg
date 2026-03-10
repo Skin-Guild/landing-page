@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+
+  <defs>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="8" flood-color="#000000" flood-opacity="0.09"/>
+    </filter>
+  </defs>
+
+  <!-- Card -->
+  <rect x="4" y="4" width="192" height="192" rx="36" fill="#FFFFFF" filter="url(#shadow)"/>
+  <rect x="4" y="4" width="192" height="192" rx="36" fill="none" stroke="#E8E0D5" stroke-width="1.5"/>
+
+  <!-- Surface line — epidermis, boldest -->
+  <path d="M 34 80 C 58 62, 84 92, 100 78 C 116 62, 142 92, 166 78"
+        stroke="#E8715A" stroke-width="7" fill="none" stroke-linecap="round"/>
+
+  <!-- Dermis line -->
+  <path d="M 34 108 C 58 90, 84 120, 100 106 C 116 90, 142 120, 166 106"
+        stroke="#1A1A2E" stroke-width="5.5" fill="none" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Sub-dermis line -->
+  <path d="M 34 134 C 58 116, 84 146, 100 132 C 116 116, 142 146, 166 132"
+        stroke="#E8715A" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Deep layer -->
+  <path d="M 34 158 C 58 140, 84 170, 100 156 C 116 140, 142 170, 166 156"
+        stroke="#1A1A2E" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.15"/>
+
+  <!-- Follicle — dashed vertical -->
+  <path d="M 100 78 L 100 162"
+        stroke="#1A1A2E" stroke-width="2.5" stroke-linecap="round"
+        stroke-dasharray="3,8" opacity="0.25"/>
+
+  <!-- Pore dot -->
+  <circle cx="100" cy="78" r="7" fill="#E8715A"/>
+
+</svg>
