@@ -10,7 +10,7 @@ interface TeamMember {
 const team: TeamMember[] = [
   {
     name: 'Chris Small',
-    role: 'Community Lead',
+    role: 'Some kind of role that will be important',
     bio: 'Bio coming soon.',
     initials: 'CS',
     color: '#4f46e5',
@@ -18,7 +18,7 @@ const team: TeamMember[] = [
   },
   {
     name: 'Vinesh',
-    role: 'Student Support Advisor',
+    role: 'Some kind of role that will also be important',
     bio: 'Bio coming soon.',
     initials: 'V',
     color: '#0891b2',
