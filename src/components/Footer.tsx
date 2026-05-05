@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-content">
           <div className="footer-brand">
-            <span className="footer-logo">Skin Guild</span>
+            <span className="footer-logo">Healthy Skin Project</span>
             <p className="footer-tagline">
               Supporting students on their skin health journey.
             </p>
@@ -18,7 +18,7 @@ export default function Footer() {
         </div>
         <div className="footer-bottom">
           <p>
-            &copy; {new Date().getFullYear()} Skin Guild · Acne Community
+            &copy; {new Date().getFullYear()} Healthy Skin Project · Acne Community
             Engagement. All rights reserved.
           </p>
         </div>

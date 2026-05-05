@@ -3,16 +3,16 @@ export default function Hero() {
     <section className="hero">
       <div className="container">
         <div className="hero-content">
-          <div className="hero-badge">Skin Guild</div>
+          <div className="hero-badge">Healthy Skin Project</div>
           <h1 className="hero-title">
-            Your skin<br />has questions.
+            Your skin<br />has questions about acne.
           </h1>
           <p className="hero-subtitle">
             <em style={{ color: '#d9601a', fontStyle: 'italic', fontWeight: 700 }}>
               We have answers.
             </em>
             <br /><br />
-            A community for high school students to learn about acne, meet our
+            A community for students to learn about acne, meet our
             team, and find the support they need.
           </p>
           <div className="hero-actions">
