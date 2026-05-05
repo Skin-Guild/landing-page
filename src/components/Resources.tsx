@@ -1,25 +1,26 @@
 interface Resource {
   category: string
-  icon: string
   items: { label: string; description: string; action?: string; href?: string }[]
 }
 
 const resources: Resource[] = [
   {
-    category: 'Talk to Us',
-    icon: '💬',
+    category: 'Who Do I See?',
     items: [
       {
-        label: 'Ask a Question',
+        label: 'Mild acne (fewer than 15 papules and pustules)',
         description:
-          'Have a question about acne or your skin? Reach out to our team directly and we will get back to you.',
-        action: 'Send a message',
+          'Try over-the-counter cleansers, serums, or moisturizers. A pharmacist can point you in the right direction. You can also ask your family doctor for advice.',
+      },
+      {
+        label: 'Moderate or severe acne (15+ papules/pustules, or nodules/cysts)',
+        description:
+          'Consider speaking to your family doctor or a dermatologist. Not sure what to say? Try: "I\'ve had acne for a while, I\'ve tried over-the-counter products and they haven\'t helped. Can we talk about treatment options?"',
       },
     ],
   },
   {
     category: 'Learn More',
-    icon: '📚',
     items: [
       {
         label: 'Acne and Rosacea Society of Canada',
@@ -55,7 +56,6 @@ export default function Resources() {
           {resources.map((resource) => (
             <div key={resource.category} className="resource-category">
               <div className="resource-category-header">
-                <span className="resource-icon">{resource.icon}</span>
                 <h3 className="resource-category-title">{resource.category}</h3>
               </div>
               <div className="resource-items">

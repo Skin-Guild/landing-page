@@ -1,45 +1,38 @@
 interface AcneFact {
-  icon: string
   title: string
   description: string
 }
 
 const facts: AcneFact[] = [
   {
-    icon: '🧬',
-    title: 'What Is Acne?',
+    title: 'Not All Breakouts Are the Same',
     description:
-      'Acne is a common skin condition that occurs when hair follicles become clogged with oil and dead skin cells. It affects people of all ages, but is especially prevalent during adolescence.',
+      'Non-inflammatory acne (whiteheads and blackheads) are pores clogged with dead skin and oil. Inflammatory acne (papules, pustules, nodules, and cysts) happens when your immune system fights back against bacteria in those clogged pores. Nodules and cysts are the most severe and sit deep under the skin.',
   },
   {
-    icon: '📊',
-    title: 'How Common Is It?',
+    title: "What's Behind the Breakouts",
     description:
-      'Acne affects up to 85% of people at some point in their lives. It is the most common skin condition worldwide, and you are far from alone in dealing with it.',
+      'Three things drive acne: (1) dead skin cells clog pores, forming a tiny plug called a microcomedo; (2) excess oil (sebum), triggered by hormones and genetics, mixes with dead skin and feeds acne-causing bacteria; (3) C. acnes bacteria multiply in clogged pores, causing redness and swelling, the inflamed pimples you see.',
   },
   {
-    icon: '🔍',
-    title: 'Common Causes',
+    title: 'Some Marks Outlast the Breakout',
     description:
-      'Acne can be triggered by hormonal changes, genetics, certain skincare products, diet, stress, and environmental factors. Understanding your triggers is a key step toward managing it.',
+      'Acne can leave rolling, boxcar, ice-pick, or hypertrophic scars. The best prevention: treat early, never pick or pop, and stop touching your acne. Once scarring forms, it is much harder to reverse.',
   },
   {
-    icon: '💊',
-    title: 'Treatment Options',
+    title: 'Things the Internet Got Wrong',
     description:
-      'Effective treatments range from over-the-counter topicals (benzoyl peroxide, salicylic acid) to prescription medications and professional procedures. A dermatologist can recommend what is right for you.',
+      'Washing more does not clear skin — over-washing strips your barrier and triggers more oil. Drying out acne backfires too, since dry skin ramps up oil production. Acne is not caused by dirty skin; scrubbing harder makes things worse. And toothpaste spot treatments? Just an irritant.',
   },
   {
-    icon: '🧠',
-    title: 'Mental Health Matters',
+    title: 'Five Things You Can Do Now',
     description:
-      'Acne can significantly impact self-esteem and mental wellbeing. It is completely valid to feel frustrated or self-conscious — seeking emotional support is just as important as treating the skin.',
+      '1. Cleanse gently twice a day, no scrubbing. 2. Wash pillowcases and sheets often. 3. Try over-the-counter products with benzoyl peroxide or salicylic acid. 4. Use oil-free, non-comedogenic products if you wear makeup. 5. Apply sunscreen daily, as acne treatments make skin more sensitive to UV rays.',
   },
   {
-    icon: '🌟',
-    title: 'Managing Expectations',
+    title: "It's Not Just Your Skin",
     description:
-      'Most acne treatments take 4–8 weeks to show results. Consistency is key. Be patient with yourself and your skin — improvement is possible with the right plan.',
+      'Acne affects confidence, social life, and mental health in ways that are real and significant, not dramatic, not vain. Seeking help is not vanity. It is self-care. You do not have to tough it out.',
   },
 ]
 
@@ -51,14 +44,14 @@ export default function AboutAcne() {
           <span className="section-label">The basics</span>
           <h2 className="section-title">Understanding Acne.</h2>
           <p className="section-subtitle">
-            Knowledge is the first step. Here is what every student should know
-            about acne.
+            We are not doctors and we will not diagnose you. What we will do:
+            give you accurate info, help you know when to get real help, and
+            point you away from bad advice online.
           </p>
         </div>
         <div className="facts-grid">
           {facts.map((fact) => (
             <div key={fact.title} className="fact-card">
-              <div className="fact-icon">{fact.icon}</div>
               <h3 className="fact-title">{fact.title}</h3>
               <p className="fact-description">{fact.description}</p>
             </div>

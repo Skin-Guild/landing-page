@@ -22,6 +22,13 @@ export default function Hero() {
             <a href="#about-acne" className="btn btn-secondary">
               Learn More
             </a>
+            <a
+              href="/acne_education.pdf"
+              download="Acne_Education_Healthy_Skin_Project.pdf"
+              className="btn btn-secondary"
+            >
+              Download Slides
+            </a>
           </div>
         </div>
       </div>
