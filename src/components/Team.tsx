@@ -4,25 +4,25 @@ interface TeamMember {
   bio: string
   initials: string
   color: string
-  contact?: string
+  image?: string
 }
 
 const team: TeamMember[] = [
   {
     name: 'Chris Small',
-    role: 'Some kind of role that will be important',
+    role: 'Co-Presenter',
     bio: 'Bio coming soon.',
     initials: 'CS',
     color: '#4f46e5',
-    contact: '',
+    image: 'public/chris.jpg',
   },
   {
-    name: 'Vinesh',
-    role: 'Some kind of role that will also be important',
+    name: 'Vinesh Rao',
+    role: 'Co-Presenter',
     bio: 'Bio coming soon.',
-    initials: 'V',
+    initials: 'VR',
     color: '#0891b2',
-    contact: '',
+    image: 'public/vin.jpg',
   },
 ]
 
@@ -40,17 +40,10 @@ export default function Team() {
         <div className="team-grid">
           {team.map((member) => (
             <div key={member.name} className="team-card">
-              <div className="team-avatar">
-                {member.initials}
-              </div>
+              <img src={member.image} alt={member.name} className="team-image"/>
               <h3 className="team-name">{member.name}</h3>
               <span className="team-role">{member.role}</span>
               <p className="team-bio">{member.bio}</p>
-              {member.contact && (
-                <a href={`mailto:${member.contact}`} className="team-contact">
-                  Contact {member.name.split(' ')[0]}
-                </a>
-              )}
             </div>
           ))}
         </div>

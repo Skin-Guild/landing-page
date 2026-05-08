@@ -287,20 +287,12 @@
   margin-bottom: 1.25rem;
 }
 
-.team-contact {
-  display: inline-block;
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--color-accent);
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  border-bottom: 2px solid var(--color-accent);
-  padding-bottom: 2px;
-  transition: opacity 0.15s;
-}
-
-.team-contact:hover {
-  opacity: 0.75;
+.team-image {
+  width: 45%;
+  height: 45%;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 1.25rem;
 }
 
 /* ── Resources — white section ── */
