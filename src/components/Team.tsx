@@ -14,7 +14,7 @@ const team: TeamMember[] = [
     bio: 'Bio coming soon.',
     initials: 'CS',
     color: '#4f46e5',
-    image: 'chris.jpg',
+    image: '/chris.jpg',
   },
   {
     name: 'Vinesh Rao',
@@ -22,7 +22,7 @@ const team: TeamMember[] = [
     bio: 'Bio coming soon.',
     initials: 'VR',
     color: '#0891b2',
-    image: 'vin.jpg',
+    image: '/vin.jpg',
   },
 ]
 
