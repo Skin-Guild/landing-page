@@ -31,7 +31,7 @@ export default function Team() {
           <span className="section-label">Who we are</span>
           <h2 className="section-title section-title-dark">Meet our team.</h2>
           <p className="section-subtitle" style={{ color: '#a09d99' }}>
-            We are here to support you. Do not hesitate to reach out.
+            We are here to support you. 
           </p>
         </div>
         <div className="team-grid">
