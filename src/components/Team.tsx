@@ -2,7 +2,6 @@ interface TeamMember {
   name: string
   role: string
   bio: string
-  initials: string
   color: string
   image?: string
 }
@@ -11,16 +10,14 @@ const team: TeamMember[] = [
   {
     name: 'Chris Small',
     role: 'Co-Presenter',
-    bio: 'Bio coming soon.',
-    initials: 'CS',
+    bio: 'Chris developed a passion for skin health after navigating acne firsthand, an experience that shaped his understanding of how isolating and confusing it can be without the right information. Frustrated by the gap between what people encounter on social media and what dermatologists actually recommend, he co-presents the Healthy Skin Project to bring evidence-based skin health education directly into the community. Alongside the Healthy Skin Project, he is building Faculty of Skin, a venture focused on expanding access to skin health tools and resources',
     color: '#4f46e5',
     image: '/chris.jpg',
   },
   {
     name: 'Vinesh Rao',
     role: 'Co-Presenter',
-    bio: 'Bio coming soon.',
-    initials: 'VR',
+    bio: 'Vinesh is a first-year medical student at the University of Alberta with a background in psychology and a strong interest in dermatology and skin health. His passion for learning about the skin is reflected through initiatives such as organizing a hands-on skin biopsy workshop for medical students and participating in ongoing dermatology research. Through The Healthy Skin Project, he hopes to make skin education more approachable, evidence-based, and engaging for the community.',
     color: '#0891b2',
     image: '/vin.jpg',
   },
