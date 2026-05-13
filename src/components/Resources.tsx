@@ -40,7 +40,7 @@ const resources: Resource[] = [
   },
 ]
 
-export default function Resources() {
+const Resources = () => {
   return (
     <section id="resources" className="section resources">
       <div className="container">
@@ -85,3 +85,5 @@ export default function Resources() {
     </section>
   )
 }
+
+export default Resources

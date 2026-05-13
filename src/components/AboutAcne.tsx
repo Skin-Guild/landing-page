@@ -36,7 +36,7 @@ const facts: AcneFact[] = [
   },
 ]
 
-export default function AboutAcne() {
+const AboutAcne = () => {
   return (
     <section id="about-acne" className="section about-acne">
       <div className="container">
@@ -61,3 +61,5 @@ export default function AboutAcne() {
     </section>
   )
 }
+
+export default AboutAcne

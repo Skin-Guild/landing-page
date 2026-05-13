@@ -5,7 +5,7 @@ import Team from './components/Team'
 import Resources from './components/Resources'
 import Footer from './components/Footer'
 
-function App() {
+const App = () => {
   return (
     <div className="app">
       <Hero />

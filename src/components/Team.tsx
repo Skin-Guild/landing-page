@@ -23,7 +23,7 @@ const team: TeamMember[] = [
   },
 ]
 
-export default function Team() {
+const Team = () => {
   return (
     <section id="team" className="section team">
       <div className="container">
@@ -48,3 +48,5 @@ export default function Team() {
     </section>
   )
 }
+
+export default Team
