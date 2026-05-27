@@ -206,6 +206,18 @@
   line-height: 1.75;
 }
 
+.fact-list {
+  font-size: 0.9rem;
+  color: #6b6764;
+  line-height: 1.75;
+  padding-left: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.fact-list li {
+  margin-bottom: 0.35rem;
+}
+
 /* ── Team — dark section ── */
 .team {
   background-color: var(--color-dark);
